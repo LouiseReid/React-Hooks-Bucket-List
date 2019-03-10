@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LouiseReid/React-Hooks-Bucket-List/precache-manifest.9d3ab6c2aac6311e485bbae0c17472fd.js"
+  "/React-Hooks-Bucket-List/precache-manifest.ac621afbc22eb72505b7d258060b25ca.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/LouiseReid/React-Hooks-Bucket-List/index.html", {
+workbox.routing.registerNavigationRoute("/React-Hooks-Bucket-List/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
