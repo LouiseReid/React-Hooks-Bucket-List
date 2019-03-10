@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BucketListContext = React.creatContext({
+const BucketListContext = React.createContext({
   items: []
 })
 
