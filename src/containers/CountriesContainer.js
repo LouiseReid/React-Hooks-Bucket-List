@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Select from '../components/Select'
 
 export default function CountriesContainer() {
 
@@ -15,7 +16,10 @@ export default function CountriesContainer() {
   }
 
   return (
-    <h1>Container</h1>
+    <>
+    <h1>Countries of the World</h1>
+    <Select countries={countries} />
+    </>
   )
 
 }
