@@ -5,7 +5,7 @@ import CountryDetail from '../components/CountryDetail';
 export default function CountriesContainer() {
 
   const [countries, setCountries] = useState([])
-  const [selectedCountry, setSelectedCountry] = useState({})
+  const [selectedCountry, setSelectedCountry] = useState(null)
 
   useEffect(() => {
     getData()
