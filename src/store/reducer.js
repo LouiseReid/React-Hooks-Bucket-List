@@ -9,6 +9,12 @@ export default function reducer(state, action){
       ...state,
       items: addedItems
     }
+    case 'REMOVE':
+    const itemsAfterRemove = state.items.filter(item => item !== action.payload)
+    return {
+      ...state,
+      items: itemsAfterRemove
+    }
     default:
     return state;
   }
