@@ -1,5 +1,6 @@
 import React, {useContext} from 'react';
 import BucketListContext from '../store/context';
+import './CountryDetail.css'
 
 export default function CountryDetail({country}){
   if(!country) return null;
@@ -11,11 +12,11 @@ export default function CountryDetail({country}){
   }
 
   return (
-    <div className="country-wrapper">
+    <div className="country-detail">
     <h4>{country.name}</h4>
     <p>Capital: {country.capital}</p>
     <p>Population: {country.population}</p>
-    <button onClick={handleAdd}>Add to Bucket-List</button>
+    <button className="btn-add" onClick={handleAdd}>&#43;</button>
     </div>
   )
 }

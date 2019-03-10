@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Select from '../components/Select';
 import CountryDetail from '../components/CountryDetail';
+import './CountriesContainer.css'
 
 export default function CountriesContainer() {
 
@@ -23,11 +24,11 @@ export default function CountriesContainer() {
   }
 
   return (
-    <>
-    <h1>Countries of the World</h1>
+    <div className="country-wrapper">
+    <h2>Countries of the World</h2>
     <Select countries={countries} onCountrySelected={handleCountrySelected}/>
     <CountryDetail country={selectedCountry} />
-    </>
+    </div>
   )
 
 }

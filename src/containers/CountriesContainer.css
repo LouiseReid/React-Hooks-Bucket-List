@@ -1,0 +1,9 @@
+.country-wrapper {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  background-color: #c1d5a0;
+  height: 50vh;
+  width: 30vw;
+  padding: 20px;
+}

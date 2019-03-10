@@ -1,0 +1,32 @@
+.bucket-list {
+  height: 50vh;
+  width: 30vw;
+  align-self: center;
+  background-color: #e9c565;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+h2 {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
+
+li {
+  margin-bottom: 15px
+}
+
+.btn-remove {
+  float: right;
+  height: 25px;
+  width: 25px;
+  font-size: 10px;
+  border-radius: 35%;
+  border: 1px solid #747474;
+  background-color: #f14646;
+}
